@@ -1,0 +1,6 @@
+n = int(input())
+s = input()
+c1 = len(s)
+s = s.replace('6', '')
+c2 = len(s)
+print(c1-c2)
